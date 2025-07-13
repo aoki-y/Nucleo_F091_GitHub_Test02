@@ -1,0 +1,1 @@
+nucleo_f091_github_test02\startup_stm32f091xc.o: startup_stm32f091xc.s
