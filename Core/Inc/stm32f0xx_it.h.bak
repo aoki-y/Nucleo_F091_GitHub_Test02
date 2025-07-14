@@ -54,9 +54,6 @@ void SysTick_Handler(void);
 void EXTI4_15_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 
-extern void EXTI_IRQ_main(void);
-
-
 /* USER CODE END EFP */
 
 #ifdef __cplusplus

@@ -49,8 +49,6 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
-void EXTI_IRQ_main(void);
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -161,13 +159,6 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
-void EXTI_IRQ_main(void)
-{
-	uint16_t a;
-	
-	a = 0;
-}
 
 /* USER CODE END 4 */
 
